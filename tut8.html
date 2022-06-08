@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+
+<body>
+    <h2>This is HtML forms tutorial</h2>
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <div>
+            <input type="text" id="name">
+        </div>
+        <!-- 
+          <br>//not recommended use css for padding
+         -->
+        <div>
+            Role : <input type="text" name="" id="">
+        </div>
+        <br>
+        <div>
+            Email : <input type="email" name="myEmail">
+            <!-- 
+            name in input used by backend 
+         -->
+        </div>
+        <br>
+        <div>
+            <input type="date" name="date">
+        </div>
+        <div>
+            Bonus :<input type="number" name="bonus">
+        </div>
+        <label for="age"> Are you elegible: </label>
+        <div>
+            <input type="checkbox" name="eligibility" checked id="age">
+            <!-- 
+                checked
+             -->
+        </div>
+        <div>
+            Gender : Male<input type="radio" name="myGender">Female <input type="radio" name="myGender">
+
+        </div>
+        <div>
+            Tell about yourself :
+            <br>
+            <textarea name="myText" id="" cols="30" rows="10"> Hi </textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="ind">Indica</option>
+                <option value="swf" selected>Swift</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </div>
+        <!-- 
+            43 e 2
+            43 10^2
+            so can type e in number
+         -->
+    </form>
+</body>
+
+</html>

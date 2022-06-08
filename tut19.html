@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+    <style>
+        #firstpara {
+            background-color: red;
+            height: 100px;
+            width: 455px;
+            border: green 2px solid;
+            /* border-width: 4px;
+            border-color: green;
+            border-style: solid; */
+            border-radius: 11px;
+        }
+
+        #secondpara {
+            background-color: rgb(17, 147, 84);
+            height: 100px;
+            width: 455px;
+            border-top: 2px solid violet;
+            /* border-width: 4px;
+            border-color: green;
+            border-style: solid; */
+            border-bottom: 2px solid violet;
+            /*border-radius: 11px; */
+            border-top-left-radius: 14px;
+            border-bottom-left-radius: 4px;
+
+        }
+
+        #thirdpara {
+            background-color: rgb(17, 147, 84);
+            height: 1100px;
+            width: 1100px;
+            border-top: 2px solid violet;
+            /* border-width: 4px;
+            border-color: green;
+            border-style: solid; */
+            border-bottom: 2px solid violet;
+            /*border-radius: 11px; */
+            border-top-left-radius: 14px;
+            border-bottom-left-radius: 4px;
+            background-image: url('CSS1.png');
+            border: 2px solid red;
+            background-repeat: no-repeat;/*how many times image needed
+            reapeat x for in x
+            and y for in y*/
+            background-position:122px 78px ;
+            background-position:center top ;
+            background-position:center left;
+             /*
+             top right bottom center
+             next right left center
+             */
+            /*x and y transition
+            center centr  for chnge in both x and y
+            */
+        }
+    </style>
+</head>
+
+<body>
+    <h3>This is heading</h3>
+    <p id="firstpara">This is para</p>
+    <p id="secondpara">This is second para</p>
+    <p id="thirdpara">This is third para</p>
+</body>
+
+</html>
