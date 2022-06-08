@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 900px;
+            border: 3px solid purple;
+            margin: auto;
+            background-color: blanchedalmond;
+        }
+
+        body {
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .item {
+            border: 3px solid grey;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background: rgb(248, 238, 238);
+        }
+
+        #fruits {
+            float: left;
+            width: 50%;
+        }
+
+        #computer {
+            float: right;
+            width: 48%;
+        }
+
+        #stationary {
+            /* float: left;*/
+            clear: both;
+            /*
+           clear left for float left*/
+            width: 100%;
+        }
+
+        p {
+            text-align: right;
+            text-align: left;
+            text-align: ;
+            /*left as after written*/
+        }
+
+        h1 {
+            margin: auto;
+            width: 455px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>welcome to my store</h1>
+        <div id="fruits" class="item">
+            <h3>fruits</h3>
+            <p id="fruits" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo esse
+                repudiandae quis laborum aperiam labore deserunt commodi facilis rem minus tenetur iure dignissimos
+                atque veritatis minima, praesentium recusandae iusto harum? Ipsam expedita tenetur, unde excepturi nobis
+                eligendi esse vel eveniet et quos exercitationem deserunt magnam velit cum nisi officiis distinctio.
+                Corporis ex perspiciatis exercitationem est, voluptate quod fuga pariatur veniam error, officia
+                accusantium distinctio sunt rem ipsum vero debitis minus ipsam. Repudiandae quo blanditiis autem tempora
+                doloremque. Atque, blanditiis.
+            </p>
+        </div>
+
+        <div id="computer" class="item">
+            <h3>computer</h3>
+            <p id="computerpara" class="para">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis modi saepe velit rem voluptates
+                similique in tempore consequuntur sint non rerum inventore ratione aliquid cumque, temporibus tempora
+                sapiente exercitationem. Error ea explicabo exercitationem maxime quisquam aperiam nostrum, quia veniam
+                sunt cumque nobis doloremque impedit cupiditate odio, quod omnis repellendus tempore, dolore nihil
+                fugiat molestiae quibusdam ut rem dolorum! Odit suscipit quod natus pariatur maxime ipsum voluptates
+                alias, optio tempora libero, voluptatem culpa nesciunt quis magni fugit aut? Debitis, voluptatem
+                officia?
+            </p>
+        </div>
+
+        <div id="stationary" class="item">
+            <h3>stationary</h3>
+            <p id="stationaryppara" class="para">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda expedita doloremque, ipsam eum
+                officia rem ea illo esse dolor blanditiis inventore magni debitis ipsum repellendus odit voluptatem, at
+                pariatur excepturi neque error distinctio libero ex deleniti delectus. Soluta autem quisquam incidunt
+                qui eos, expedita eligendi ab nostrum .
+            </p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>glasses</h3>
+            <p id="stationaryppara" class="para">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda expedita doloremque, ipsam eum
+                officia rem ea illo esse dolor blanditiis inventore magni debitis ipsum repellendus odit voluptatem, at
+                pariatur excepturi neque error distinctio libero ex deleniti delectus. Soluta autem quisquam incidunt
+                qui eos, expedita eligendi ab nostrum .
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
